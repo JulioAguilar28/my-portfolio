@@ -1,11 +1,13 @@
 ---
 import BaseHeader from '../components/BaseHeader.astro'
+import Header from '../components/Header.astro'
+import Body from '../components/Body.astro'
 ---
 
 <!DOCTYPE html>
 <html lang="en">
   <BaseHeader title="Julio's Portfolio" />
-  <body class="font-roboto">
-    <slot />
-  </body>
+  <Body>
+    <Header />
+  </Body>
 </html>
